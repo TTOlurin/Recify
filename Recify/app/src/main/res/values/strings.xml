@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Recify</string>
+    <string name="form_title">Add a Recipe</string>
+    <string name="input_placeh">Enter Text</string>
+</resources>

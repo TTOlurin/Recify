@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkSlateGray"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/pacifico_regular"
+            android:text="@string/app_name"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/DarkOrange"
+            android:textSize="78sp"
+            />
+
+
+
+        <Button
+            android:id="@+id/browseBtn"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Orange"
+            android:text="Browse Recipes"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="17sp"/>
+
+
+        <Button
+            android:id="@+id/listBtn"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Orange"
+            android:text="Text to Speech"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="17sp"/>
+
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Orange"
+            android:text="Add a Recipe"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
